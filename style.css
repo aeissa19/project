@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+list-style: none;
+font-family: cursive;
+float: right;
+top: 10px;
+right: 30px;
+cursor: pointer;
+color: black;
+}
+body{
+  text-align: center;
+  background: linear-gradient( #E1BEE7 0%, #90CAF9 100%);
+    background-repeat: no-repeat;
+}
+#image{
+  border-radius: 50%;
+  width: 100px;
+}
+h1{
+  text-shadow: 2px 2px #F8BBD0;
+  font-size: 20px;
+}
+p{
+  font-size: 18px;
+  color: #6A1B9A;
+}
+.menu {
+    font-family: fantasy;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    background-color: white;
+}
+
+}
+.links {
+    color: black;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: monospace;
+    font-size: 20px;
+    display: inline;
+    top:0;
+}
+
+.links:hover {
+    background-color: antiquewhite;
+font-size: 25px;
+    text-decoration: underline;
+    
+}
+a {
+    text-decoration: none;
+}
+#abt{
+    text-align: center;
+}
+#fav{
+    text-align: center;
+}
+#work{
+    text-align: center;
+}
+#inspo{
+text-align: center;
+}
+img{
+transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+contacts iframe{
+    width: 100%;
+    
+}
